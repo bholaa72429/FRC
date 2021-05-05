@@ -19,7 +19,7 @@ def num_check(question, error, num_type):
             print(error)
 
 # MAIN ROUTINE
-get_int = num_check("How much do you need?(quantity) ",
+get_int = num_check("How much do you need? ",
                     "Please enter an integer (whole number) which is more than 0\n",
                     int)
 

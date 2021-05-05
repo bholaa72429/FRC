@@ -18,6 +18,6 @@ def yes_no(question):
         print("please answer yes / no")
 
 # Main routine
-for item in range (0,6):
+for item in range(0,6):
     want_help = yes_no("Do you want to read instructions ? ")
     print("You said '{}'\n".format(want_help))

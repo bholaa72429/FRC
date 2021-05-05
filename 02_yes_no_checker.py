@@ -20,4 +20,4 @@ def yes_no(question):
 # Main routine
 for item in range (0,6):
     want_help = yes_no("Do you want to read instructions ? ")
-    print("You said ")
+    print("You said '{}'\n".format(want_help))

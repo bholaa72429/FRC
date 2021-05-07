@@ -52,15 +52,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03_variable_cost.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="03_variable_cost.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03_variable_cost.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="367">
               <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding>
                 <element signature="e#169#476#0" expanded="false" />
                 <element signature="e#553#825#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04_fixed_cost.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_fixed_cost.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,6 +94,7 @@
         <option value="$PROJECT_DIR$/02_yes_no_checker.py" />
         <option value="$PROJECT_DIR$/00_FRC_base_v1.py" />
         <option value="$PROJECT_DIR$/03_variable_cost.py" />
+        <option value="$PROJECT_DIR$/04_fixed_cost.py" />
       </list>
     </option>
   </component>
@@ -104,7 +115,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -117,13 +128,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -551,12 +556,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03_variable_cost.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
+        <state relative-caret-position="367">
           <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding>
             <element signature="e#169#476#0" expanded="false" />
             <element signature="e#553#825#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_fixed_cost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

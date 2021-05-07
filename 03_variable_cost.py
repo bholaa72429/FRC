@@ -75,3 +75,29 @@ while item_name.lower() != "xxx":
     price = num_check("What is the cost for single item? $",
                       "The price must be a number <more than 0>",
                       float)
+
+    # add item, quantity and price to lists
+    item_list.append(item_name)
+    quantity_list.append(quantity)
+    price_list.append(price)
+
+variable_frame = pandas.DataFrame(variable_dict)
+variable_frame = variable_frame.set_index('Item')
+
+# calculate cost of each component by multiplying quantity by the price
+variable_frame['Cost'] = variable_frame['Quantity']\
+                        * variable_frame['Price']
+
+# Find sub total
+variable_sub = variable_frame['Cost'].sum()
+
+# Currency Formatting (uses currency function)
+add_dollar = ['Price', 'Cost']
+for item in add_dollar:
+    variable_frame[item] = variable_frame[item].apply(currency)
+
+# ** Printing Area **
+print(variable_frame)
+
+print()
+print("VARIABLE COST: ${:.2f}".format(variable_sub))

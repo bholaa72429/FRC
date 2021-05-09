@@ -73,7 +73,8 @@ def get_expenses(var_fixed):
                                  "The amount must be a whole number",int)
         else:
             quantity = 1
-        price = num_check("How much? $", "The price must be <more than ")
+
+        price = num_check("How much? $", "The price must be <more than 0>",float)
 
         # add item, quantity and price to lists
         item_list.append(item_name)
@@ -109,7 +110,9 @@ fixed_frame = fixed_expense[0]
 fixed_sub = fixed_expense[1]
 
 # ** Printing Area **
-print(variable_frame)
+print()
+print(fixed_frame[['Cost']])
+print()
 
 print()
-print("VARIABLE COST: ${:.2f}".format(variable_sub))
+print("FIXED COST: ${:.2f}".format(fixed_sub))

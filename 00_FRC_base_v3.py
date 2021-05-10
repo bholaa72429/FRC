@@ -1,11 +1,11 @@
 import pandas
-# Functions goes here
+# **Functions goes here**
 
 # check that product name is not blank
-
-
 # checks that input is a float or an integer which is more zero.
 # has custom error messages for int/float
+
+
 def num_check(question, error, num_type):
     valid = False
 
@@ -22,6 +22,7 @@ def num_check(question, error, num_type):
 
         except ValueError:
             print(error)
+
 
 # checks that user has entered yes / no to a question
 def yes_no(question):
@@ -41,6 +42,7 @@ def yes_no(question):
                 return var_item
         print("please answer yes / no")
 
+
 # checks that input is not blank
 def not_blank(question, error_message):
     valid = False
@@ -55,13 +57,14 @@ def not_blank(question, error_message):
         else:
             print(error_message)
 
+
 # currency formatting function
 def currency(x):
     return "${:.2f}".format(x)
 
+
 # Gets expenses, returns list which has
 # The data frame and sub total
-
 def get_expenses(var_fixed):
     # set up dictionaries and lists
 
@@ -120,23 +123,37 @@ def get_expenses(var_fixed):
     return [expense_frame, sub_total]
 
 
+# Prints expense frames
+def expense_print(heading, frame, subtotal):
+    print()
+    print("***{} Costs ***".format(heading))
+    print(frame)
+    print()
+    print(" {} Costs: ${:.2f}".format(heading,subtotal))
+    return ""
+
 # *** MAIN ROUTINE***
 
 # Get user input
 product_name = not_blank("Product Name:",
                          "The product name can't be blank.")
-
+print()
+print("Please enter your variable costs below...")
 # Get variable costs
 variable_expenses = get_expenses("variable")
 variable_frame = variable_expenses[0]
 variable_sub = variable_expenses[1]
 
-# Get fixed costs
-fixed_expenses = get_expenses("fixed")
-fixed_frame = fixed_expenses[0]
-fixed_sub = fixed_expenses[1]
+print()
+have_fixed = yes_no("Do you have  fixed costs (y/n)? ")
 
-
+if have_fixed == "yes":
+    # Get fixed costs
+    fixed_expenses = get_expenses("fixed")
+    fixed_frame = fixed_expenses[0]
+    fixed_sub = fixed_expenses[1]
+else:
+    fixed_sub = 0
 
 # Profit goal
 
@@ -147,20 +164,14 @@ fixed_sub = fixed_expenses[1]
 
 # ~~PRINTING~~
 
-# display variable costs
-print("~~VARIABLE COST ~~")
-print(variable_frame)
+
 print()
-
-print("Variable Costs: ${:.2f}".format(variable_sub))
-
-
-# display fixed cost
-print("~~FIXED COST~~")
-print(fixed_frame[['Cost']])
+print("^^^ Fund Raising - {} ^^^".format(product_name))
 print()
+expense_print("Variable", variable_frame, variable_sub)
 
-print("Fixed Costs: ${:.2f}".format(fixed_sub))
+if have_fixed == "yes":
+    expense_print("Fixed", fixed_frame[['Cost']], fixed_sub)
 
 # total cost (adding fixed and variable cost)
 

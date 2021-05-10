@@ -47,9 +47,15 @@
       <file leaf-file-name="00_FRC_base_v3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/00_FRC_base_v3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="369">
+              <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+              <folding>
+                <element signature="e#235#543#0" expanded="false" />
+                <element signature="e#624#1006#0" expanded="false" />
+                <element signature="e#1083#1356#0" expanded="false" />
+                <element signature="e#1541#3168#0" expanded="false" />
+                <marker date="1620683665368" expanded="false" signature="3239:3396" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,6 +140,7 @@
         <option value="$PROJECT_DIR$/04_fixed_cost_v1.py" />
         <option value="$PROJECT_DIR$/00_FRC_base_v1.py" />
         <option value="$PROJECT_DIR$/00_FRC_base_v2.py" />
+        <option value="$PROJECT_DIR$/00_FRC_base_v3.py" />
       </list>
     </option>
   </component>
@@ -775,9 +782,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/00_FRC_base_v3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="369">
+          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding>
+            <element signature="e#235#543#0" expanded="false" />
+            <element signature="e#624#1006#0" expanded="false" />
+            <element signature="e#1083#1356#0" expanded="false" />
+            <element signature="e#1541#3168#0" expanded="false" />
+            <marker date="1620683665368" expanded="false" signature="3239:3396" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -70,11 +70,11 @@ def get_expenses(var_fixed):
 
         if var_fixed == "variable":
             quantity = num_check("Quantity:",
-                                 "The amount must be a whole number",int)
+                                 "The amount must be a whole number", int)
         else:
             quantity = 1
 
-        price = num_check("How much? $", "The price must be <more than 0>",float)
+        price = num_check("How much? $", "The price must be <more than 0>", float)
 
         # add item, quantity and price to lists
         item_list.append(item_name)

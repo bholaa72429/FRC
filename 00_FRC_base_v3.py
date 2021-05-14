@@ -173,6 +173,9 @@ expense_print("Variable", variable_frame, variable_sub)
 if have_fixed == "yes":
     expense_print("Fixed", fixed_frame[['Cost']], fixed_sub)
 
+print()
+print("Total Expenses: ${:.2f}".format(fixed_sub + variable_sub))
+
 # total cost (adding fixed and variable cost)
 
 

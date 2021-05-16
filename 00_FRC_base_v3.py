@@ -89,6 +89,7 @@ def get_expenses(var_fixed):
         # get name, quantity and item
         item_name = not_blank("Item name: ",
                               "The component name can't be blank.")
+     
         if item_name.lower() == "xxx":
             break
 

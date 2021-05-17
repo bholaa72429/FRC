@@ -44,17 +44,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="00_FRC_base_v3.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="00_FRC_base_v3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_FRC_base_v3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="e#235#543#0" expanded="false" />
                 <element signature="e#624#1006#0" expanded="false" />
                 <element signature="e#1083#1356#0" expanded="false" />
                 <element signature="e#1408#1434#0" expanded="false" />
                 <element signature="e#3250#3402#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05_profit_goal.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05_profit_goal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+              <folding>
+                <element signature="e#104#483#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -141,11 +153,12 @@
         <option value="$PROJECT_DIR$/00_FRC_base_v1.py" />
         <option value="$PROJECT_DIR$/00_FRC_base_v2.py" />
         <option value="$PROJECT_DIR$/00_FRC_base_v3.py" />
+        <option value="$PROJECT_DIR$/05_profit_goal.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-15" />
+    <option name="x" value="-4" />
     <option name="width" value="1104" />
     <option name="height" value="1047" />
   </component>
@@ -160,7 +173,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -173,13 +186,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -189,24 +196,7 @@
       <recent name="C:\Users\bholaa72429\OneDrive - Massey High School\2021 CLASSES\COM_201\Programming\FRC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.00_FRC_base_v3">
-    <configuration default="false" name="03_variable_cost" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FRC" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_variable_cost.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.05_profit_goal">
     <configuration default="false" name="03_variable_cost_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,6 +261,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FRC" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_FRC_base_v3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="05_profit_goal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FRC" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_profit_goal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -410,19 +417,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.03_variable_cost" />
-      <item index="1" class="java.lang.String" itemvalue="Python.03_variable_cost_v2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.04_fixed_cost_v1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.00_FRC_base_v2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.00_FRC_base_v3" />
+      <item index="0" class="java.lang.String" itemvalue="Python.03_variable_cost_v2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.04_fixed_cost_v1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.00_FRC_base_v2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.00_FRC_base_v3" />
+      <item index="4" class="java.lang.String" itemvalue="Python.05_profit_goal" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.00_FRC_base_v3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.00_FRC_base_v2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.04_fixed_cost_v1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.03_variable_cost_v2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.03_variable_cost" />
+        <item index="0" class="java.lang.String" itemvalue="Python.05_profit_goal" />
+        <item index="1" class="java.lang.String" itemvalue="Python.00_FRC_base_v3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.00_FRC_base_v2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.04_fixed_cost_v1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.03_variable_cost_v2" />
       </list>
     </recent_temporary>
   </component>
@@ -440,7 +447,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-15" y="0" width="1104" height="1047" extended-state="0" />
+    <frame x="-4" y="0" width="1104" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19716981" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -448,7 +455,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3180363" sideWeight="0.14398421" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36072573" sideWeight="0.8560158" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16328709" sideWeight="0.8560158" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -499,6 +506,37 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/03_variable_cost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_variable_cost_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="116" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding>
+            <element signature="e#169#477#0" expanded="false" />
+            <element signature="e#554#827#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_fixed_cost_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="117" selection-end-column="46" />
+          <folding>
+            <element signature="e#169#477#0" expanded="false" />
+            <element signature="e#554#827#0" expanded="false" />
+            <element signature="e#941#2568#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/00_FRC_base_v1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
@@ -874,14 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_number_checker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_yes_no_checker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -941,16 +971,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01_number_checker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/00_FRC_base_v3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+        <state relative-caret-position="374">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="e#235#543#0" expanded="false" />
             <element signature="e#624#1006#0" expanded="false" />
             <element signature="e#1083#1356#0" expanded="false" />
             <element signature="e#1408#1434#0" expanded="false" />
             <element signature="e#3250#3402#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_profit_goal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding>
+            <element signature="e#104#483#0" expanded="false" />
           </folding>
         </state>
       </provider>

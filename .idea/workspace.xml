@@ -20,15 +20,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="00_FRC_base_v1.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="00_FRC_base_v1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/00_FRC_base_v1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
               <folding>
                 <element signature="e#218#525#0" expanded="false" />
                 <element signature="e#606#987#0" expanded="false" />
                 <element signature="e#1064#1336#0" expanded="false" />
+                <element signature="e#1521#3148#0" expanded="false" />
+                <marker date="1621288393571" expanded="false" signature="3179:5034" ph="..." />
               </folding>
             </state>
           </provider>
@@ -47,7 +49,7 @@
       <file leaf-file-name="00_FRC_base_v3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_FRC_base_v3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="333">
               <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="e#235#543#0" expanded="false" />
@@ -60,13 +62,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05_profit_goal.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="05_profit_goal.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05_profit_goal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding>
                 <element signature="e#104#483#0" expanded="false" />
+                <element signature="e#520#2375#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -150,10 +153,10 @@
         <option value="$PROJECT_DIR$/03_variable_cost.py" />
         <option value="$PROJECT_DIR$/03_variable_cost_v2.py" />
         <option value="$PROJECT_DIR$/04_fixed_cost_v1.py" />
-        <option value="$PROJECT_DIR$/00_FRC_base_v1.py" />
         <option value="$PROJECT_DIR$/00_FRC_base_v2.py" />
         <option value="$PROJECT_DIR$/00_FRC_base_v3.py" />
         <option value="$PROJECT_DIR$/05_profit_goal.py" />
+        <option value="$PROJECT_DIR$/00_FRC_base_v1.py" />
       </list>
     </option>
   </component>
@@ -501,7 +504,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -545,6 +548,8 @@
             <element signature="e#218#525#0" expanded="false" />
             <element signature="e#606#987#0" expanded="false" />
             <element signature="e#1064#1336#0" expanded="false" />
+            <element signature="e#1521#3148#0" expanded="false" />
+            <marker date="1621288393571" expanded="false" signature="3179:5034" ph="..." />
           </folding>
         </state>
       </provider>
@@ -626,6 +631,8 @@
             <element signature="e#218#525#0" expanded="false" />
             <element signature="e#606#987#0" expanded="false" />
             <element signature="e#1064#1336#0" expanded="false" />
+            <element signature="e#1521#3148#0" expanded="false" />
+            <marker date="1621288393571" expanded="false" signature="3179:5034" ph="..." />
           </folding>
         </state>
       </provider>
@@ -707,6 +714,8 @@
             <element signature="e#218#525#0" expanded="false" />
             <element signature="e#606#987#0" expanded="false" />
             <element signature="e#1064#1336#0" expanded="false" />
+            <element signature="e#1521#3148#0" expanded="false" />
+            <marker date="1621288393571" expanded="false" signature="3179:5034" ph="..." />
           </folding>
         </state>
       </provider>
@@ -766,6 +775,8 @@
             <element signature="e#218#525#0" expanded="false" />
             <element signature="e#606#987#0" expanded="false" />
             <element signature="e#1064#1336#0" expanded="false" />
+            <element signature="e#1521#3148#0" expanded="false" />
+            <marker date="1621288393571" expanded="false" signature="3179:5034" ph="..." />
           </folding>
         </state>
       </provider>
@@ -809,6 +820,8 @@
             <element signature="e#218#525#0" expanded="false" />
             <element signature="e#606#987#0" expanded="false" />
             <element signature="e#1064#1336#0" expanded="false" />
+            <element signature="e#1521#3148#0" expanded="false" />
+            <marker date="1621288393571" expanded="false" signature="3179:5034" ph="..." />
           </folding>
         </state>
       </provider>
@@ -845,6 +858,8 @@
             <element signature="e#218#525#0" expanded="false" />
             <element signature="e#606#987#0" expanded="false" />
             <element signature="e#1064#1336#0" expanded="false" />
+            <element signature="e#1521#3148#0" expanded="false" />
+            <marker date="1621288393571" expanded="false" signature="3179:5034" ph="..." />
           </folding>
         </state>
       </provider>
@@ -873,6 +888,8 @@
             <element signature="e#218#525#0" expanded="false" />
             <element signature="e#606#987#0" expanded="false" />
             <element signature="e#1064#1336#0" expanded="false" />
+            <element signature="e#1521#3148#0" expanded="false" />
+            <marker date="1621288393571" expanded="false" signature="3179:5034" ph="..." />
           </folding>
         </state>
       </provider>
@@ -893,6 +910,8 @@
             <element signature="e#218#525#0" expanded="false" />
             <element signature="e#606#987#0" expanded="false" />
             <element signature="e#1064#1336#0" expanded="false" />
+            <element signature="e#1521#3148#0" expanded="false" />
+            <marker date="1621288393571" expanded="false" signature="3179:5034" ph="..." />
           </folding>
         </state>
       </provider>
@@ -951,18 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_FRC_base_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding>
-            <element signature="e#218#525#0" expanded="false" />
-            <element signature="e#606#987#0" expanded="false" />
-            <element signature="e#1064#1336#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_FRC_base_v2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2465">
@@ -981,7 +988,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/00_FRC_base_v3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="333">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="e#235#543#0" expanded="false" />
@@ -995,10 +1002,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05_profit_goal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding>
             <element signature="e#104#483#0" expanded="false" />
+            <element signature="e#520#2375#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_FRC_base_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+          <folding>
+            <element signature="e#218#525#0" expanded="false" />
+            <element signature="e#606#987#0" expanded="false" />
+            <element signature="e#1064#1336#0" expanded="false" />
+            <element signature="e#1521#3148#0" expanded="false" />
+            <marker date="1621288393571" expanded="false" signature="3179:5034" ph="..." />
           </folding>
         </state>
       </provider>

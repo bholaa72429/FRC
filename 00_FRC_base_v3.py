@@ -1,4 +1,5 @@
 import pandas
+import math
 # **Functions goes here**
 
 # check that product name is not blank
@@ -123,7 +124,6 @@ def get_expenses(var_fixed):
 
     return [expense_frame, sub_total]
 
-
 # Prints expense frames
 def expense_print(heading, frame, subtotal):
     print()
@@ -132,6 +132,72 @@ def expense_print(heading, frame, subtotal):
     print()
     print(" {} Costs: ${:.2f}".format(heading,subtotal))
     return ""
+
+def profit_goal(total_costs):
+
+    # Initialise variable and error message
+    error = "Please enter a valid profit goal\n"
+
+    valid = False
+    while not valid:
+
+        # ask for profit goal
+        response = input("What is your profit goal (eg $200 or 20%) ? ")
+
+        # check if the first character is $
+        if response[0] == "$":
+            profit_type = "$"
+            # Get amount (everything after the $)
+            amount = response[1:]
+
+        # chech that last character is %
+        elif response [-1] == "%":
+            profit_type = "%"
+            # Get amount (everything before the %)
+            amount = response[:-1]
+        else :
+            # set response to amount for now
+            profit_type = "unknown"
+            amount = response
+
+        try:
+            # check amount is an number more than zero
+            amount = float(amount)
+            if amount <= 0:
+                print(error)
+                continue
+        except ValueError:
+            print(error)
+            continue
+
+        if profit_type == "unknown" and amount >= 100:
+            dollar_type = yes_no("Do you mean ${:.2f}. "
+                                 "ie {:.2f} dollar? ,"
+                                 "y/n".format(amount, amount))
+            # set profit type based on user answer above
+            if dollar_type == "yes":
+                profit_type = "$"
+            else:
+                profit_type = "%"
+
+        elif profit_type == "unknown" and amount < 100:
+            percent_type = yes_no("Do you mean {}% , y/n ? ".format(amount))
+
+            if percent_type == "yes":
+                profit_type = "%"
+            else:
+                profit_type = "$"
+
+        # return profit goal to main
+        if profit_type == "$":
+            return amount
+        else:
+            goal = (amount / 100) * total_costs
+            return goal
+
+# rounding function
+def round_up(amount, round_to):
+    return int(math.ceil(amount / round_to)) * round_to
 
 # *** MAIN ROUTINE***
 
@@ -156,15 +222,23 @@ if have_fixed == "yes":
 else:
     fixed_sub = 0
 
-# Profit goal
+# work out the total costs amd profit target
+all_costs = variable_sub + fixed_sub
+profit_target = profit_goal(all_costs)
+
+# calculate recommended price
+selling_price = 0
 
 # Ask for nearest rounding prefered
+to_round = []
+
+for item in to_round:
+    rounded = round_up(item, 5)
 
 # Selling price
 
 
 # ~~PRINTING~~
-
 
 print()
 print("^^^ Fund Raising - {} ^^^".format(product_name))
@@ -174,12 +248,17 @@ expense_print("Variable", variable_frame, variable_sub)
 if have_fixed == "yes":
     expense_print("Fixed", fixed_frame[['Cost']], fixed_sub)
 
-print()
-print("Total Expenses: ${:.2f}".format(fixed_sub + variable_sub))
-
 # total cost (adding fixed and variable cost)
+print()
+print("Total Cost: ${:.2f}".format(all_costs))
+print()
+
+print()
+print("*** Profit and Sales Targets ***")
+print("Profit Target: ${:.2f}".format(profit_target))
+print("Total Sales: ${:.2f}".format(all_costs + profit_target))
 
 
 # Profit and sales targets
-
+print("${:.2f} --> ${:.2f}".format(item, rounded))
 # Pricing

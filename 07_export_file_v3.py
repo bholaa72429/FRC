@@ -22,7 +22,6 @@ fixed_txt = pandas.DataFrame.to_string(fixed_frame)
 
 product_name = "Custom Mugs"
 profit_target = "$100.00"
-
 required_sales = "$200.00"
 recommended_price = "The recommended price is $5.00"
 

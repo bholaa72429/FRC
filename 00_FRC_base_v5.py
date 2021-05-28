@@ -201,6 +201,8 @@ def round_up(amount, round_to):
 
 # *** MAIN ROUTINE***
 
+
+
 # Get user input
 product_name = not_blank("Product Name:",
                          "The product name can't be blank.")
@@ -244,6 +246,10 @@ print("Selling Price (unrounded): ${:.2f}".format(selling_price))
 
 recommended_price = round_up(selling_price, round_to)
 
+
+# change frame to string
+variable_txt = pandas.DataFrame.to_string(variable_frame)
+fixed_txt = pandas.DataFrame.to_string(fixed_frame)
 
 # ~~PRINTING~~
 

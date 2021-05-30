@@ -279,7 +279,7 @@ print("Recommended Price: ${:.2f}".format(recommended_price))
 
 # Pricing
 
-print(variable_frame)
+
 
 to_write = [product_name, variable_txt, fixed_txt,
             profit_target, selling_price, recommended_price]
@@ -297,8 +297,3 @@ for item in to_write:
 
 # close your text file
 text_file.close()
-
-# Print Stuff
-for item in to_write:
-    print(item)
-    print()

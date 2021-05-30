@@ -199,9 +199,17 @@ def profit_goal(total_costs):
 def round_up(amount, round_to):
     return int(math.ceil(amount / round_to)) * round_to
 
+
+
+
 # *** MAIN ROUTINE***
+instructions = yes_no("Would you Like to See instructions?")
+if instructions != "yes":
+    print("Welcome")
+else:
+    print("use The following guidlines")
 
-
+# Ask user if they have used the program before & show instruction
 
 # Get user input
 product_name = not_blank("Product Name:",
@@ -279,7 +287,7 @@ print("Recommended Price: ${:.2f}".format(recommended_price))
 
 # Pricing
 
-print(variable_frame)
+
 
 to_write = [product_name, variable_txt, fixed_txt,
             profit_target, selling_price, recommended_price]
@@ -297,8 +305,3 @@ for item in to_write:
 
 # close your text file
 text_file.close()
-
-# Print Stuff
-for item in to_write:
-    print(item)
-    print()

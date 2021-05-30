@@ -204,11 +204,10 @@ def round_up(amount, round_to):
 
 # *** MAIN ROUTINE***
 instructions = yes_no("Would you Like to See instructions?")
-
-    if instructions == "yes":
-        print("use The following guidlines")
-    else:
-        print("Welcome")
+if instructions != "yes":
+    print("Welcome")
+else:
+    print("use The following guidlines")
 
 # Ask user if they have used the program before & show instruction
 

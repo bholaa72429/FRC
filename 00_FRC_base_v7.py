@@ -200,20 +200,19 @@ def round_up(amount, round_to):
     return int(math.ceil(amount / round_to)) * round_to
 
 
-
-
 # *** MAIN ROUTINE***
-instructions = yes_no("Would you Like to See instructions?")
+instructions = yes_no("Would you like to see instructions?")
 if instructions != "yes":
     print("Welcome")
 else:
-    print("use The following guidlines")
-
+    print("Welcome to FRC ! Here are the instuctions")
+    print("----")
 # Ask user if they have used the program before & show instruction
 
 # Get user input
 product_name = not_blank("Product Name:",
                          "The product name can't be blank.")
+
 
 how_many = num_check("How many items will you be producing?",
                      "The number of items must be a whole number more than zero",
@@ -287,13 +286,17 @@ print("Recommended Price: ${:.2f}".format(recommended_price))
 
 # Pricing
 
+product_heading = "********** {} *********".format(product_name)
+target_text = "Profit Target: ${:.2f}".format(profit_target)
+selling_price = "Selling Price: ${:.2f}".format(selling_price)
+recommended_price = "Recommended Price: ${:.2f}".format(recommended_price)
 
-
-to_write = [product_name, variable_txt, fixed_txt,
-            profit_target, selling_price, recommended_price]
+to_write = [product_heading, variable_txt, fixed_txt,
+            target_text, selling_price, recommended_price]
 
 # Write to file ...
 # create file to hold data ( add .txt extension)
+
 file_name = "{}.txt".format(product_name)
 text_file = open(file_name, "w+")
 
